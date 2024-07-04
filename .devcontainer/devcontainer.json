@@ -1,0 +1,12 @@
+{
+  "name": "Custom Template",
+  "dockerFile": "Dockerfile",
+  "settings": {
+    "terminal.integrated.defaultProfile.linux": "bash"
+  },
+  "extensions": [
+    "ms-vscode.vscode-typescript-next",
+    "dbaeumer.vscode-eslint"
+  ],
+  "postCreateCommand": "npm install"
+}
